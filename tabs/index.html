@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body id="App">
+    <div class="container-fluid py-4">
+      <div class="row">
+        <div class="container d-flex justify-content-around">
+          <button
+            class="btn btn-primary nav-btn active"
+            id="prev"
+            data-target="1"
+          >
+            1
+          </button>
+          <button class="btn btn-primary nav-btn" id="next" data-target="2">
+            2
+          </button>
+          <button class="btn btn-primary nav-btn" id="next" data-target="3">
+            3
+          </button>
+        </div>
+      </div>
+      <div class="row d-flex flex-direction-row flex-wrap-none">
+        <div class="item">
+          <h2>PREMIER</h2>
+        </div>
+        <div class="item">
+          <h2>DEUX</h2>
+        </div>
+        <div class="item">
+          <h2>TROIS</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
