@@ -29,3 +29,14 @@ window.addEventListener("load", () => {
     });
   });
 });
+
+// select elements with class of onsale
+
+const saleItems = document.getElementsByClassName("onsale");
+// loop through the elements and add a span as an adjacent sibling
+for (let i = 0; i < saleItems.length; i++) {
+  const span = document.createElement("span");
+  span.textContent = "Sale";
+  span.classList.add("onsale");
+  saleItems[i].appendChild(span);
+}
